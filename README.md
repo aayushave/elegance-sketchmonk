@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # HOSTED ON GITHUB PAGES
 
-LINK ==> [ELEGANCE](https://aayushave.github.io/elegance-sketchmonk/).
+HOSTED LINK ==> [" --> ELEGANCE <--"](https://aayushave.github.io/elegance-sketchmonk/).
 
 ## Available Scripts
 
