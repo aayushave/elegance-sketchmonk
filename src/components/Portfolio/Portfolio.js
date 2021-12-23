@@ -4,7 +4,9 @@ import './../../assets/css/style.css'
 
 import lineslong from './../../assets/images/horizontal-line.svg'
 
-import splash from './../../assets/images/splash.jpg'
+import d1 from './../../assets/images/d1.png'
+import d2 from './../../assets/images/d2.png'
+import d3 from './../../assets/images/d3.png'
 
 const Portfolio = () => {
     return (
@@ -34,7 +36,7 @@ const Portfolio = () => {
                             <div style={{ marginLeft: '10px' }}>
                                 <h5>Title Goes Here</h5>
                                 <p>Project Name : LOREM</p>
-                                <img src={splash} alt="splash text" width="100%" />
+                                <img src={d1} alt="splash text" width="100%" />
                             </div>
                         </div>
                     </div>
@@ -44,7 +46,7 @@ const Portfolio = () => {
                                 <h5>Title Goes Here</h5>
                                 <p>Project Name : LOREM</p>
                                 <div style={{borderLeft:  '1px solid black'}}>
-                                    <img style={{ marginLeft: '10px' }}src={splash} alt="splash text" width="100%" />
+                                    <img style={{ marginLeft: '10px' }}src={d2} alt="splash text" width="100%" />
                                 </div>
                             </div>
                         </div>
@@ -55,7 +57,7 @@ const Portfolio = () => {
                                 <h5>Title Goes Here</h5>
                                 <p>Project Name : LOREM</p>
                                 <div style={{borderLeft:  '1px solid black'}}>
-                                    <img style={{ marginLeft: '10px' }}src={splash} alt="splash text" width="100%" />
+                                    <img style={{ marginLeft: '10px' }}src={d3} alt="splash text" width="100%" />
                                 </div>
                             </div>
                         </div>
