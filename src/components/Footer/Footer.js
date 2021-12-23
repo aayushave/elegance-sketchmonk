@@ -11,9 +11,9 @@ const Footer = () => {
         <div class="footer">
             <div class="container" >
                
-                <div class="row justify-content-between" >
+                <div class="row " >
                     
-                    <div class="col-sm-8">
+                    <div class="col-sm">
                         <div className='footer-project'>
                             <div style={{ marginLeft: '10px' }}>
                                 <h5>Elegance</h5>
@@ -26,7 +26,7 @@ const Footer = () => {
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-sm justify-content-end d-flex">
                         <div className='footer-project'>
                             <div >
                                 <h5>Contact Us <img className="portfolio-imglines" src={lineslong} alt="lines" style={{ height: '4px'}}></img>

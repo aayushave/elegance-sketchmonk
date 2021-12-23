@@ -8,11 +8,11 @@ import splash from './../../assets/images/splash.jpg'
 
 const Portfolio = () => {
     return (
-        <div>
-            <div class="container" >
-                <div class="row" style={{ padding: '50px 0 0 0' }}>
+        <div >
+            <div className="container" >
+                <div className="row" style={{ padding: '50px 0 0 0' }}>
 
-                    <div class="col-sm-2">
+                    <div className="col-sm-2">
                         <div >
                             <img className="portfolio-imglines" src={lineslong} alt="lines" style={{ height: '6px',float: 'left' }}></img>
                             <h1 className="ff" >PORTFOLIO</h1>
@@ -21,15 +21,15 @@ const Portfolio = () => {
                     </div>
                 </div>
 
-                <div class="row" style={{ padding: '10px 0 20px 0' }}>
-                    <div class="col-sm">
-                        <div className='portfoilio-project'>
+                <div className="row" style={{ padding: '10px 0 20px 0' }}>
+                    <div className="col-sm-4">
+                        <div className='portfolio-proj'>
                             <p>
                                 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
                             </p>
                         </div>
                     </div>
-                    <div class="col-sm" >
+                    <div className="col-sm" >
                         <div className='portfolio-project'>
                             <div style={{ marginLeft: '10px' }}>
                                 <h5>Title Goes Here</h5>
@@ -38,7 +38,7 @@ const Portfolio = () => {
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm">
+                    <div className="col-sm">
                         <div className='portfolio-project-x'>
                             <div style={{ marginLeft: '10px' }}>
                                 <h5>Title Goes Here</h5>
@@ -49,7 +49,7 @@ const Portfolio = () => {
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm">
+                    <div className="col-sm">
                         <div className='portfolio-project-x'>
                             <div style={{ marginLeft: '10px' }}>
                                 <h5>Title Goes Here</h5>
@@ -62,8 +62,8 @@ const Portfolio = () => {
                     </div>
                 </div>
 
-                <div class="row" style={{ }}>
-                <div class="col-md " id="offset-unset">
+                <div className="row" >
+                <div className="col-md " id="offset-unset">
                     <h5 style={{color:'#fc3903',
                         textDecoration: 'underline solid #fc3903'}}>
                             EXPLORE ALL PROJECTS</h5>

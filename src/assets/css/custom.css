@@ -16,22 +16,11 @@ transform: translate(-50%, -50%);
         background-repeat: no-repeat;
 }
 .portfolio-proj{
-    margin: 20px 80px 0 0;
-    height: 80vh;
+    margin: 20px 0 0 0;
     text-align: left;
     }
 
-.portfolio-project{
-margin: 20px 50px 0 0;
-height: 60vh;
-text-align: left;
-border-left:  2px solid black
-}
-.portfolio-project-x{
-    margin: 20px 50px 0 0;
-    height: 60vh;
-    text-align: left;
-}
+
 .dotbgnd {
     background-size: cover;
     max-width: 100%;
@@ -39,8 +28,22 @@ border-left:  2px solid black
     
 }
 
+.ffRealEstate{
+    text-align: left;
+}
+.RealEstate-project{
+    text-align: left;
+}
+
+.RealEstate-img{
+    margin-left: 10px;
+    padding-bottom:10px;
+    background-size:cover;
+    width: 50rem
+}
+
+
 .footer{
-    border-top:  2px solid black;
     height: 50vh;
 }
 .footer-project{
@@ -49,11 +52,36 @@ width: 40vh;
 text-align: left;
 }
 
-@media(min-width: 900px){
+@media(min-width: 1024px){
     #offset-unset{
-    padding: 0 0 0 300px;
+        padding: 0 0 0 480px;
+        }
+        .portfolio-project{
+        margin: 0 0 0 0;
+        height: 60vh;
+        text-align: left;
+        border-left:  2px solid black
+        }
 }
+@media(max-width: 1021) and (min-width: 768px) {
+    
+    
+    .portfolio-project-x{
+        margin: 20px 50px 0 0;
+        height: 60vh;
+        text-align: left;
+    }    
+    .portfolio-project  img{
+        width: 100%
+    }
+    .portfolio-project-x  img{
+        width: 100%
+        
+    }
+
 }
+
+
 @media(max-width: 900px){
     .imglines {
      display: none;
@@ -88,9 +116,15 @@ text-align: left;
         padding-top: 50px ;
     } */
     
+    .portfolio-project{
+        margin:0  0 0 0;
+        text-align: left;
+        padding-bottom:10px ;
+        }
     .portfolio-project-x{
         text-align: left;
         border-top: 1px solid black;
+        padding-bottom: 10px;
         }
     .portfolio-project  img{
         width: 70%
@@ -99,8 +133,22 @@ text-align: left;
         width: 70%
         
     }
+
+    .ffRealEstate{
+        font-size:x-large;        
+    }
+
+    .RealEstate-project{
+        text-align: left;
+    }
+
+    .RealEstate-img{
+        padding-bottom:20px;
+        background-size:cover;
+        width: 18rem
+    }
+
     .footer{
-        border-top:  2px solid black;
         height: 70vh;
     }
   }
