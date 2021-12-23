@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# HOSTED ON GITHUB PAGES
+
+LINK ==> [ELEGANCE](https://aayushave.github.io/elegance-sketchmonk/).
+
 ## Available Scripts
 
 In the project directory, you can run:
