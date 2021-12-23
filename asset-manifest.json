@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/elegance-sketchmonk/static/css/main.0785ac2b.css",
-    "main.js": "/elegance-sketchmonk/static/js/main.3837a664.js",
+    "main.js": "/elegance-sketchmonk/static/js/main.185213bd.js",
     "static/js/787.42c6c738.chunk.js": "/elegance-sketchmonk/static/js/787.42c6c738.chunk.js",
     "static/media/splash.jpg": "/elegance-sketchmonk/static/media/splash.f1915da663f90decab02.jpg",
     "static/media/bg-image.jpg": "/elegance-sketchmonk/static/media/bg-image.7d787a3b37c8cfea4665.jpg",
@@ -11,11 +11,11 @@
     "static/media/lines.svg": "/elegance-sketchmonk/static/media/lines.6a5078acd14eb143bfdb22b9343db431.svg",
     "static/media/horizontal-line.svg": "/elegance-sketchmonk/static/media/horizontal-line.bc9561603cc57db053ebd2b92458c943.svg",
     "main.0785ac2b.css.map": "/elegance-sketchmonk/static/css/main.0785ac2b.css.map",
-    "main.3837a664.js.map": "/elegance-sketchmonk/static/js/main.3837a664.js.map",
+    "main.185213bd.js.map": "/elegance-sketchmonk/static/js/main.185213bd.js.map",
     "787.42c6c738.chunk.js.map": "/elegance-sketchmonk/static/js/787.42c6c738.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0785ac2b.css",
-    "static/js/main.3837a664.js"
+    "static/js/main.185213bd.js"
   ]
 }
