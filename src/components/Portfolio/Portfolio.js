@@ -1,8 +1,6 @@
 import React from 'react'
-import DotBg from './../../assets/images/dot-bg.jpg'
 import './../../assets/css/custom.css'
 import './../../assets/css/style.css'
-import bootstrap from 'bootstrap'
 
 import lineslong from './../../assets/images/horizontal-line.svg'
 
@@ -45,7 +43,7 @@ const Portfolio = () => {
                             <div style={{ marginLeft: '10px' }}>
                                 <h5>Title Goes Here</h5>
                                 <p>Project Name : LOREM</p>
-                                <div style={{borderLeft:  '1px solid black',marginLeft: '-10px'}}>
+                                <div style={{borderLeft:  '1px solid black'}}>
                                     <img style={{ marginLeft: '10px' }}src={splash} alt="splash text" width="100%" />
                                 </div>
                             </div>
@@ -56,7 +54,7 @@ const Portfolio = () => {
                             <div style={{ marginLeft: '10px' }}>
                                 <h5>Title Goes Here</h5>
                                 <p>Project Name : LOREM</p>
-                                <div style={{borderLeft:  '1px solid black',marginLeft: '-10px'}}>
+                                <div style={{borderLeft:  '1px solid black'}}>
                                     <img style={{ marginLeft: '10px' }}src={splash} alt="splash text" width="100%" />
                                 </div>
                             </div>

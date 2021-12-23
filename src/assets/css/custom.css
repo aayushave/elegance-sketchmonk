@@ -40,14 +40,13 @@ border-left:  2px solid black
 }
 
 .footer{
-    background-color:mintcream;
+    border-top:  2px solid black;
     height: 50vh;
 }
 .footer-project{
     margin: 20px 50px 0 0;
 width: 40vh;
 text-align: left;
-border-left:  2px solid black
 }
 
 @media(min-width: 900px){
@@ -69,24 +68,39 @@ border-left:  2px solid black
 
     .portfolio-imglines {
         height: 4px;
-        float: left;
+        float: le
+        ft;
        }
-    .portfolio-project{
+       
+    /* .portfolio-project{
         margin: 0 0 10px 0;
         text-align: left;
         padding-bottom: 2px;
         }
         .portfolio-project-x{
-            margin: 0 0 10px 0;
+            margin: 50px 0 0 0;
             text-align: left;
             padding-bottom: 2px;
             }
         
+    
+    #offset-unset{
+        padding-top: 50px ;
+    } */
+    
+    .portfolio-project-x{
+        text-align: left;
+        border-top: 1px solid black;
+        }
     .portfolio-project  img{
-        width: 80%
+        width: 70%
     }
     .portfolio-project-x  img{
-        width: 80%
+        width: 70%
+        
     }
-    
+    .footer{
+        border-top:  2px solid black;
+        height: 70vh;
+    }
   }
