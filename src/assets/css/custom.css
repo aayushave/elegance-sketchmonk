@@ -1,12 +1,23 @@
+body, html {
+    font-family: Nunito,sans-serif;
+    scroll-behavior: smooth;
+    --tw-bg-opacity: 1;
+    background-color: rgba(255,255,255,var(--tw-bg-opacity));
+}
 
 .centered {
 position: absolute;
+background-color: rgba(0,0,0,0.3);
 top: 50%;
 left: 50%;
+padding: 5px;
+font-weight: 700;
+color: white;
 transform: translate(-50%, -50%);
 }
 
 .ff{
+    font-family: Quattrocento,serif;
     text-align: left;
 }
 .portfolio{
@@ -20,7 +31,9 @@ transform: translate(-50%, -50%);
     text-align: left;
     }
 
-
+.left-border-lg{
+    border-left: 1px solid black;
+}
 .dotbgnd {
     background-size: cover;
     max-width: 100%;
@@ -29,6 +42,7 @@ transform: translate(-50%, -50%);
 }
 
 .ffRealEstate{
+    font-family: Quattrocento,serif;
     text-align: left;
 }
 .RealEstate-project{
@@ -39,9 +53,26 @@ transform: translate(-50%, -50%);
     margin-left: 10px;
     padding-bottom:10px;
     background-size:cover;
+
     width: 50rem
 }
 
+.bottom-left{
+    position: absolute;
+    width: 250px;
+    background-color: #ECBA09;
+    word-wrap: break-word;
+    bottom: 8px;
+    left: 16px;
+}
+.top-right{
+    position: absolute;
+    width: 250px;
+    background-color: #68D2F3;
+    word-wrap: break-word;
+    top: 8px;
+    right: 16px;
+}
 
 .footer{
     height: 50vh;
@@ -52,6 +83,15 @@ width: 40vh;
 text-align: left;
 }
 
+.form-group{
+    padding:10px 0;
+    border-bottom: 2px dotted  black;
+    text-align: left;
+}
+.no-border {
+    border: 0;
+    box-shadow: none; /* You may want to include this as bootstrap applies these styles too */
+}
 @media(min-width: 1024px){
     #offset-unset{
         padding: 0 0 0 480px;
@@ -61,6 +101,9 @@ text-align: left;
         height: 60vh;
         text-align: left;
         border-left:  2px solid black
+        }
+        .left-border-lg{
+            border-left: 1px solid black;
         }
 }
 @media(max-width: 1021) and (min-width: 768px) {
@@ -76,8 +119,11 @@ text-align: left;
     }
     .portfolio-project-x  img{
         width: 100%
-        
     }
+    .left-border-lg{
+        border: none;
+    }
+    
 
 }
 
@@ -96,26 +142,12 @@ text-align: left;
 
     .portfolio-imglines {
         height: 4px;
-        float: le
-        ft;
+        float: left;
        }
        
-    /* .portfolio-project{
-        margin: 0 0 10px 0;
-        text-align: left;
-        padding-bottom: 2px;
-        }
-        .portfolio-project-x{
-            margin: 50px 0 0 0;
-            text-align: left;
-            padding-bottom: 2px;
-            }
-        
-    
-    #offset-unset{
-        padding-top: 50px ;
-    } */
-    
+    .left-border-lg{
+        border: none;
+    }
     .portfolio-project{
         margin:0  0 0 0;
         text-align: left;
@@ -123,7 +155,6 @@ text-align: left;
         }
     .portfolio-project-x{
         text-align: left;
-        border-top: 1px solid black;
         padding-bottom: 10px;
         }
     .portfolio-project  img{
@@ -148,7 +179,32 @@ text-align: left;
         width: 18rem
     }
 
+    .bottom-left{
+        position: absolute;
+        width: 200px;
+        background-color: #ECBA09;
+        word-wrap: break-word;
+        font-size: 0.75rem;
+        bottom: 8px;
+        left: 16px;
+    }
+    .top-right{
+        position: absolute;
+        width: 200px;
+        background-color: #68D2F3;
+        word-wrap: break-word;
+        font-size: 0.75rem;
+        top: 8px;
+        right: 16px;
+    }
+
+
     .footer{
         height: 70vh;
+    }
+    .form-group{
+        padding:10px 0;
+        border-bottom: 2px dotted  black;
+        text-align: left;
     }
   }

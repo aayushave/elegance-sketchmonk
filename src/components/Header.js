@@ -23,28 +23,26 @@ const Header = () => {
         <div >
             <AppBar position="static"
                 sx={{
-                    backgroundColor: 'transparent', boxShadow: 'none'
+                    backgroundColor: '#fff', boxShadow: 'none' , position:'fixed'
                 }} >
                 <Container maxWidth="xl" >
                     <Toolbar>
                         <Typography
                             variant="h4"
                             component="div"
-                            sx={{ mr: 2, color: 'black', display: { xs: 'flex', md: 'flex', flexGrow: 1 } }}
+                            sx={{ mr: 2, color: '#0B8234', display: { xs: 'flex', md: 'flex', flexGrow: 1 } }}
                         >
-                            LOGO
+                            Real Elegance
                         </Typography>
                         {pages.map((page) => (
                             <Button
                                 key={page}
                                 variant="button"
-                                sx={{ color: 'black', display: { xs: 'none', md: 'flex', flexGrow: 0 },
+                                sx={{ color: 'black', display: { xs: 'none', md: 'flex', flexGrow: 0, },
                                 ':hover': {
                                     bgcolor: 'grey',
-                                    textDecoration:'underline',
-                                    textUnderlinePosition: 'under',
                                     textDecorationThickness: '4px', 
-                                    textDecorationColor: 'orange',
+                                    color:'orange'
                                  }
                                 }}>
                                 {page}
@@ -55,7 +53,11 @@ const Header = () => {
                                 variant="button"
                                 sx={{ color: 'black', display: { xs: 'none', md: 'flex', flexGrow: 0 },
                                 marginBottom:'-15px',
-                                  }}>
+                                ':hover': {
+                                    bgcolor: 'grey',
+                                    color:'orange'
+                                 }
+                                }}>
                                 CONTACT US
                             </Button>
                                 <img  className="imglines" src={lines}  alt="lines" style={{display: { xs: 'none', md: 'flex',flexGrow: 0 }}}></img>

@@ -1,73 +1,40 @@
 import React from 'react'
 import { SocialIcon } from 'react-social-icons';
-import {TextField, Button} from '@mui/material'
-import SendIcon from '@mui/icons-material/Send';
-
-
-import lineslong from './../../assets/images/horizontal-line.svg'
 
 const Footer = () => {
     return (
         <div class="footer">
             <div class="container" >
-               
+
                 <div class="row " >
-                    
-                    <div class="col-sm">
+
+                    <div class="col-md-8  ">
                         <div className='footer-project'>
                             <div style={{ marginLeft: '10px' }}>
                                 <h5>Elegance</h5>
-                                <p>Contact Us @email</p>
-                                <SocialIcon url="https://twitter.com/" style={{ height: 25, width: 25,    margin: '0 10px'}} />
-                                <SocialIcon network="facebook" style={{ height: 25, width: 25,    margin: '0 10px' }}/>
-                                <SocialIcon network="instagram" style={{ height: 25, width: 25,    margin: '0 10px' }}/>
-                                <SocialIcon network="reddit" style={{ height: 25, width: 25,    margin: '0 10px' }}/>
-                                
+                                <p>Get in touch with us and tell us the story you would like to create.</p>
+                                <SocialIcon url="https://twitter.com/" style={{ height: 25, width: 25, margin: '0 10px 0 0' }} />
+                                <SocialIcon url="https://facebook.com/" network="facebook" style={{ height: 25, width: 25, margin: '0 10px' }} />
+                                <SocialIcon url="https://instagram.com/"network="instagram" style={{ height: 25, width: 25, margin: '0 10px' }} />
+                                <SocialIcon url="https://reddit.com/"network="reddit" style={{ height: 25, width: 25, margin: '0 10px' }} />
+
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm justify-content-end d-flex">
-                        <div className='footer-project'>
-                            <div >
-                                <h5>Contact Us <img className="portfolio-imglines" src={lineslong} alt="lines" style={{ height: '4px'}}></img>
-                            </h5>
-                                <div>
-                                    <TextField
-                                        required
-                                        id="standard-required"
-                                        label="Full Name"
-                                        variant="standard"
-                                        sx={{width:"100%"}}
-                                    />
-                                    <TextField
-                                        required
-                                        id="standard-required"
-                                        label="Company Name"
-                                        variant="standard"
-                                        sx={{width:"100%"}}
-                                    />
-                                    <TextField
-                                        required
-                                        id="standard-required"
-                                        label="Email Address"
-                                        variant="standard"
-                                        sx={{width:"100%"}}
-                                    />
-                                    <TextField
-                                        required
-                                        id="standard-required"
-                                        label="Enter Your Message"
-                                        variant="standard"
-                                        sx={{width:"100%"}}
-                                    />
-
-                                <Button variant="text" 
-                                sx={{paddingTop:'20px', width:'100%', justifyContent: "flex-start", color:'black',borderBottom:'2px solid black'}}
-                                endIcon={<SendIcon />}>
-                                        Send Message
-                                    </Button>
-                                </div>
-                            </div>
+                    <div class="col-8 col-md-4 ">
+                            <div class="box-body">
+                                <form action="#" method="post">
+                                    <div class="form-group " >
+                                        <input type="text" name="" placeholder="Full Name" size="30" class="form-control" />
+                                    </div>
+                                    <div class="form-group " >
+                                        <input type="email" name="" placeholder="E-mail Address" size="30"class="form-control" />
+                                    </div>
+                                    <div class="form-group " >
+                                        <textarea name="" rows="2" size="30" placeholder="Message" class="form-control"></textarea>
+                                    </div>
+                                    <button type="submit" class="btn btn-light btn-msg-send" style={{marginTop:'10px',  float:'left'}}>Send</button>
+                                </form>
                         </div>
                     </div>
                 </div>
