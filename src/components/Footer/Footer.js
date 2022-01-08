@@ -23,7 +23,7 @@ const Footer = () => {
                     </div>
                     <div class="col-8 col-md-4 ">
                             <div class="box-body">
-                                <form >
+                                <form action="#" method="post">
                                     <div class="form-group " >
                                         <input type="text" name="" placeholder="Full Name" size="30" class="form-control" />
                                     </div>
