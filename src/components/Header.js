@@ -23,7 +23,7 @@ const Header = () => {
         <div >
             <AppBar position="static"
                 sx={{
-                    backgroundColor: '#fff', boxShadow: 'none' , position:'fixed'
+                    backgroundColor: '#fff', boxShadow: 'none' , position:'fixed',zIndex:'1'
                 }} >
                 <Container maxWidth="xl" >
                     <Toolbar>
