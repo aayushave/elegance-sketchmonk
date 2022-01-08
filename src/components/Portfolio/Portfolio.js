@@ -50,14 +50,14 @@ const Portfolio = () => {
                 </div>
 
                 <div className="row " style={{ padding: '0 0 20px 0' }}>
-                    <div className="col-sm-6 col-lg-4 ">
+                    <div className="col-sm-6 col-lg-3 col-xl-3 ">
                         <div className='portfolio-proj'>
                             <p>
                                 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
                             </p>
                         </div>
                     </div>
-                    <div className="col-sm col-6 col-sm-6 col-md-6 col-lg-3 col-xl-2 fadeInUp" >
+                    <div className="col-sm col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 fadeInUp" >
                         <div className='portfolio-project'>
                             <div style={{ marginLeft: '10px' }}>
                                 <FadeInWhenVisible>
@@ -68,7 +68,7 @@ const Portfolio = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-sm col-6 col-sm-6 col-md-6 col-lg-3 col-xl-2 fadeInUp">
+                    <div className="col-sm col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 fadeInUp">
                         <div className='portfolio-project-x'>
                             <div style={{ marginLeft: '10px' }}>
                             <FadeInWhenVisible>
@@ -82,7 +82,7 @@ const Portfolio = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-sm col-6 col-sm-6 col-md-6 col-lg-3 col-xl-2 fadeInUp">
+                    <div className="col-sm col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 fadeInUp">
                         <div className='portfolio-project-x'>
                             <div style={{ marginLeft: '10px' }}>
                             <FadeInWhenVisible>
