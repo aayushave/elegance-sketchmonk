@@ -23,7 +23,7 @@ const Footer = () => {
                     </div>
                     <div class="col-8 col-md-4 ">
                             <div class="box-body">
-                                <form action="#" method="post">
+                                <form >
                                     <div class="form-group " >
                                         <input type="text" name="" placeholder="Full Name" size="30" class="form-control" />
                                     </div>
@@ -33,7 +33,7 @@ const Footer = () => {
                                     <div class="form-group " >
                                         <textarea name="" rows="2" size="30" placeholder="Message" class="form-control"></textarea>
                                     </div>
-                                    <button type="submit" class="btn btn-light btn-msg-send" style={{marginTop:'10px',  float:'left'}}>Send</button>
+                                    <button disabled type="submit" class="btn btn-light btn-msg-send" style={{marginTop:'10px',  float:'left'}}>Send</button>
                                 </form>
                         </div>
                     </div>
