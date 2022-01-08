@@ -33,6 +33,60 @@ function FadeInWhenVisible({ children }) {
     );
   }
 
+  function FadeInWhenVisibleText({ children }) {
+    const controls = useAnimation();
+    const [ref, inView] = useInView();
+  
+    useEffect(() => {
+      if (inView) {
+        controls.start("visible");
+      }
+    }, [controls, inView]);
+  
+    return (
+      <motion.div
+        ref={ref}
+        animate={controls}
+        initial="hidden"
+        transition={{ duration: 1.5 }}
+        variants={{
+          visible: { opacity: 1, scale: 1 },
+          hidden: { opacity: 0, scale: 0 }
+        }}
+      >
+        {children}
+      </motion.div>
+    );
+  }
+
+  function FadeInWhenVisibleText2({ children }) {
+    const controls = useAnimation();
+    const [ref, inView] = useInView();
+  
+    useEffect(() => {
+      if (inView) {
+        controls.start("visible");
+      }
+    }, [controls, inView]);
+  
+    return (
+      <motion.div
+        ref={ref}
+        animate={controls}
+        initial="hidden"
+        transition={{ duration: 1.5 }}
+        variants={{
+          visible: { opacity: 1, scale: 1 },
+          hidden: { opacity: 0, scale:  1 }
+        }}
+      >
+        {children}
+      </motion.div>
+    );
+  }
+
+
+
 
 const RealEstate = () => {
     return (
@@ -63,11 +117,15 @@ const RealEstate = () => {
                     <div class="col-sm-8">
                         <div >
                             <div style={{borderLeft:  '1px solid black' ,position: 'relative' }}>
-                                    <FadeInWhenVisible>
+                            <FadeInWhenVisible>
                                     <img className="RealEstate-img"src={r1} alt="splash text"  />
+                            </FadeInWhenVisible>
+                            <FadeInWhenVisibleText>
                                     <div class="bottom-left">Lorem ipsum sub text goes here as referrence or sub points 2</div>
-                                    <div class="top-right">Lorem ipsum sub text goes here as referrence or sub points 2</div>
-                                    </FadeInWhenVisible>
+                            </FadeInWhenVisibleText>  
+                            <FadeInWhenVisibleText2>  
+                                      <div class="top-right">Lorem ipsum sub text goes here as referrence or sub points 2</div>
+                            </FadeInWhenVisibleText2>   
                                 </div>
                         </div>
                     </div>
