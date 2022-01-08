@@ -3,7 +3,7 @@ import { SocialIcon } from 'react-social-icons';
 
 const Footer = () => {
     return (
-        <div class="footer">
+        <div class="footer" style={{backgroundColor:"#212721", color:'white'}}>
             <div class="container" >
 
                 <div class="row " >
@@ -25,15 +25,15 @@ const Footer = () => {
                             <div class="box-body">
                                 <form action="#" method="post">
                                     <div class="form-group " >
-                                        <input type="text" name="" placeholder="Full Name" size="30" class="form-control" />
+                                        <input type="text" className="transparent form-control" name="" placeholder="Full Name" size="30"  />
                                     </div>
                                     <div class="form-group " >
-                                        <input type="email" name="" placeholder="E-mail Address" size="30"class="form-control" />
+                                        <input type="email" className="transparent form-control" name="" placeholder="E-mail Address" size="30"  />
                                     </div>
                                     <div class="form-group " >
-                                        <textarea name="" rows="2" size="30" placeholder="Message" class="form-control"></textarea>
+                                        <textarea name="" rows="2" className="transparent form-control" size="30" placeholder="Message" ></textarea>
                                     </div>
-                                    <button disabled type="submit" class="btn btn-light btn-msg-send" style={{marginTop:'10px',  float:'left'}}>Send</button>
+                                    <button disabled type="submit" class="btn btn-secondary btn-msg-send" className="transparent" style={{marginTop:'10px',  float:'left'}}>Send Message</button>
                                 </form>
                         </div>
                     </div>

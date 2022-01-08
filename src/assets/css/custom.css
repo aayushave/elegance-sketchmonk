@@ -2,8 +2,11 @@
 body, html {
     font-family: Nunito,sans-serif;
     scroll-behavior: smooth;
-    --tw-bg-opacity: 1;
-    background-color: rgba(255,255,255,var(--tw-bg-opacity));
+    --tw-bg-opacity: 0.9;
+    background-color: rgba(255, 255, 255,var(--tw-bg-opacity));
+    
+    background-image:url("../images/bg2.png");
+    background-blend-mode:multiply;
 }
 
 .centered {
@@ -22,7 +25,6 @@ font-size:3.75rem;
 padding: 6px;
 }
 .ff{
-    font-family: Quattrocento,serif;
     text-align: left;
 }
 .portfolio{
@@ -47,7 +49,6 @@ padding: 6px;
 }
 
 .ffRealEstate{
-    font-family: Quattrocento,serif;
     text-align: left;
 }
 .RealEstate-project{
@@ -90,8 +91,14 @@ text-align: left;
 
 .form-group{
     padding:10px 0;
-    border-bottom: 2px dotted  black;
+    border-bottom: 2px dotted  white;
     text-align: left;
+    background-color: transparent;
+
+}
+
+.transparent{
+    background-color: transparent;
 }
 .no-border {
     border: 0;
