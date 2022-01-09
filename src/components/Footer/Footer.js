@@ -33,7 +33,7 @@ const Footer = () => {
                                     <div class="form-group " >
                                         <textarea name="" rows="2" className="transparent form-control" size="30" placeholder="Message" ></textarea>
                                     </div>
-                                    <button disabled type="submit" class="btn btn-secondary btn-msg-send" className="transparent" style={{marginTop:'10px',  float:'left'}}>Send Message</button>
+                                    <button disabled type="submit" className="transparent btn btn-secondary btn-msg-send" style={{marginTop:'10px',  float:'left'}}>Send Message</button>
                                 </form>
                         </div>
                     </div>
