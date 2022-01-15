@@ -73,7 +73,7 @@ const Portfolio = () => {
                             <div style={{ marginLeft: '10px' }}>
                             <FadeInWhenVisible>
                                 <h5>SPLASH COLOR</h5>
-                                <p style={{fontWeight: '300',fontSize:'1rem'}}>Sunny - Banglore, India</p>
+                                <p style={{ fontWeight: '300',fontSize:'1rem'}}>Sunny - Banglore, India</p>
                                 <div className='left-border-lg'>
                                     <img style={{ marginLeft: '10px' }}src={d2} alt="splash text" width="100%" />
                                     
