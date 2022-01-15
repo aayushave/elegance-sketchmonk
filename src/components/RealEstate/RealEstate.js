@@ -118,7 +118,7 @@ const RealEstate = () => {
                         <div >
                             <div style={{borderLeft:  '1px solid black' ,position: 'relative' }}>
                             <FadeInWhenVisible>
-                                    <img className="RealEstate-img"src={r1} alt="splash text"  />
+                                    <img className="img-fluid RealEstate-img"src={r1} alt="splash text"  />
                             </FadeInWhenVisible>
                             <FadeInWhenVisibleText>
                                     <div class="bottom-left">Lorem ipsum sub text goes here as referrence or sub points 2</div>
