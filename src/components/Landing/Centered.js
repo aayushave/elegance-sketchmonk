@@ -1,9 +1,8 @@
-import React, {useEffect, useState} from 'react'
+import React from 'react'
 import './../../assets/css/custom.css'
 import floatTable from './../../assets/images/float-table.png'
 import chandelier from './../../assets/images/chandelier.png'
-import { motion, useAnimation } from "framer-motion";
-import { useInView } from "react-intersection-observer";
+import { motion } from "framer-motion";
 
 
 function TranslateTable({ children }) {
@@ -13,9 +12,7 @@ function TranslateTable({ children }) {
         initial={{ transform:'translateY(-20px)', transition: {type: 'tween', duration: 2 } } }
         animate={{  
             delay: 1,transform:'translateY(10px)', transition: {type: 'tween', duration: 2,repeatType: "mirror",repeatDelay: 2 ,repeat: Infinity} } }
-            onHover={{
-                scale: 1.1}}
-                >    
+        >    
         {children}
       </motion.div>
     );
@@ -26,8 +23,7 @@ function TranslateTable({ children }) {
     return (
       <motion.div
         initial={{ transform:'translateY(-20px)', transition: {type: 'tween', duration: 2 } } }
-        animate={{  onHover:{
-            scale: 1.1},
+        animate={{  
                 transform:'translateY(10px)', transition: {delay: 1.5,type: 'tween', duration: 2,repeatType: "mirror",repeatDelay: 2.2 ,repeat: Infinity} } }
         
         
