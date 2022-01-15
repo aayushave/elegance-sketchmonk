@@ -9,6 +9,15 @@ body, html {
     background-blend-mode:multiply;
 }
 
+
+.landing-image{
+    min-height:100vh;
+    background-image:url('../images/bg-image.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center
+}
+
 .centered {
 position: absolute;
 top: 50%;
@@ -179,10 +188,21 @@ text-align: left;
         padding: 6px;
         position: relative;
         }
+    .landing-image{
+        min-height:100vh;
+        background-image:url('../images/bg-image.jpg');
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
 
-        .float-table{
-            display: none;
-            }
+    .float-table{
+        display: none;
+        }
+
+    .chandelier{
+        display: none;
+    }
+    
     .portfolio-imglines {
         height: 4px;
         float: left;
