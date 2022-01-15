@@ -57,7 +57,7 @@ const Portfolio = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="col-sm col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 fadeInUp" >
+                    <div className="col-sm col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 " >
                         <div className='portfolio-project'>
                             <div style={{ marginLeft: '10px' }}>
                                 <FadeInWhenVisible>
@@ -68,7 +68,7 @@ const Portfolio = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-sm col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 fadeInUp">
+                    <div className="col-sm col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 ">
                         <div className='portfolio-project-x'>
                             <div style={{ marginLeft: '10px' }}>
                             <FadeInWhenVisible>
@@ -82,7 +82,7 @@ const Portfolio = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-sm col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 fadeInUp">
+                    <div className="col-sm col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 ">
                         <div className='portfolio-project-x'>
                             <div style={{ marginLeft: '10px' }}>
                             <FadeInWhenVisible>

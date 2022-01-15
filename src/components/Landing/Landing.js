@@ -8,7 +8,8 @@ root:{
     minHeight:'100vh',
     backgroundImage:`url(${BgImage})`,
     backgroundRepeat: 'no-repeat',
-    backgroundSize:'cover'
+    backgroundSize:'cover',
+    backgroundPosition:'center'
 }
 
 }))
